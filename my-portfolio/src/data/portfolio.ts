@@ -10,7 +10,7 @@ export type PortfolioProfile = {
 
 export const profile: PortfolioProfile = {
   name: 'NSHUTI BLESSING PRINCE',
-  title: 'Software Engineer',
+  title: 'Software Engineer ',
   email: 'nshutiblessing13@gmail.com',
   github: 'https://github.com/blessing250',
   phone: '+25076006001 | +250790330066',

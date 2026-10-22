@@ -30,7 +30,7 @@ export default function Hero() {
   return (
     <section className={`${containerClass} relative grid min-h-[660px] grid-cols-[1.15fr_.85fr] items-center pt-[106px] pb-20 max-md:min-h-0 max-md:grid-cols-[1fr_.72fr] max-md:gap-0 max-md:pt-[86px] max-md:pb-[109px] max-sm:flex max-sm:flex-col max-sm:items-stretch max-sm:pt-[60px]`} id="home" ref={heroRef}>
       <div className="relative z-10 pb-[38px] max-sm:pb-0">
-        <p className={`${eyebrowClass} flex items-center`} data-enter><span className="mr-2 inline-block size-1.5 rounded-full bg-emerald-300 shadow-[0_0_10px_#72d9a077]" /> 01 / HOME <span className="px-2 text-slate-600">·</span> SOFTWARE ENGINEER</p>
+        <p className={`${eyebrowClass} flex items-center`} data-enter><span className="mr-2 inline-block size-1.5 rounded-full bg-emerald-300 shadow-[0_0_10px_#72d9a077]" /> 01 / HOME <span className="px-2 text-slate-600">·</span></p>
         <p className="mt-[22px] mb-[-13px] font-display text-2xl text-portfolio-blue" data-enter>{profile.name || 'Your Name'}</p>
         <h1 className="mt-[27px] mb-5 max-w-[670px] text-[clamp(46px,6.4vw,79px)] leading-[.99] font-medium tracking-[-.065em] text-slate-100 max-md:text-[clamp(44px,8vw,65px)] max-sm:mt-[23px] max-sm:text-[clamp(44px,13vw,63px)]">
           <span data-enter className="block">Building useful</span>
