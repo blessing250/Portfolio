@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className={`${containerClass} relative z-20 flex h-[82px] items-center justify-between border-b border-line max-sm:h-[70px]`}>
       <a className="inline-flex items-center gap-[11px] text-xs font-semibold tracking-wide text-slate-200" href="#home" aria-label="Home" onClick={closeMenu}>
-        <span className="grid size-[29px] place-items-center rounded-full border border-portfolio-blue/55 font-display text-base text-portfolio-blue">&lt;/&gt;</span>
+        <img className="size-10 rounded-full border border-portfolio-blue/30 object-cover" src="/images/nbp-mark.png" alt="" />
         <span>{profile.title}</span>
       </a>
       <button className="hidden border-0 bg-transparent p-2 text-slate-100 max-md:block" type="button" aria-label={menuOpen ? 'Close navigation' : 'Open navigation'} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>

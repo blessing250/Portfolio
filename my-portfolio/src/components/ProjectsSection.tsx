@@ -6,6 +6,7 @@ const projectThemes = [
   { surface: 'bg-[#141d29]', accent: 'bg-blue-400', orbit: 'border-blue-400/25' },
   { surface: 'bg-[#17212b]', accent: 'bg-teal-300', orbit: 'border-teal-300/25' },
   { surface: 'bg-[#171d2a]', accent: 'bg-violet-300', orbit: 'border-violet-300/25' },
+  { surface: 'bg-[#1a1f2b]', accent: 'bg-rose-400', orbit: 'border-rose-400/25' },
 ]
 
 function ProjectArtwork({ index }: { index: number }) {
